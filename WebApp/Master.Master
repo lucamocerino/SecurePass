@@ -1,0 +1,51 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Master.master.cs" Inherits="WebApplication3.Master" %>
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Basic 89</title>
+<meta charset="iso-8859-1">
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+    <link rel="stylesheet" href="data.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1>SecurePass</h1>
+      <h2>Website for database handle</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="Home.aspx">Home</a></li>
+        <li><a href="About.aspx">About</a></li>
+        <li><a href="Contacts.aspx">Contact</a></li>
+        <li class="last"> <a href="Login.aspx">Login</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+    <form id="form1" runat="server">
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <div id="mainContent" > <!-- This div will contain the main content of the page, unique -->
+       
+         <asp:ContentPlaceHolder id="contentMain" runat="server">
+
+        </asp:ContentPlaceHolder>
+        </div>
+  </div>
+   
+</div>
+    <br />
+
+  <footer id="footer" class="clear">
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - SecurePass</p>
+    <p class="fl_right">SecurePass by <a href="http://www.os-templates.com/">Group #9</a></p>
+  </footer>
+
+        </form>
+</body>
+</html>
