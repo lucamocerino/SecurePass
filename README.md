@@ -5,9 +5,13 @@ A client-server control access application.
 
 
 Security has been one of the most controversial topics for the last few decades, in particular in the computer science field. Considering security as the possibility to guarantee a secure access to a private and protected environment, the main problems are:
+
 •	Classic authentication system (username + password) is easily hackable;
+
 •	In a work environment, a badge based system to access the office does not guarantee the real identity of the person;
+
 •	Working frauds are commonplace;
+
 •	An autonomous access to a protect environment (houses, condominium, etc.) by a limited group of people is not easy without a human surveillance; 
 
 
@@ -18,8 +22,11 @@ In our project as case of use, we have developed a system that allows employees 
 
 The product developed during the course is called SecurePass. 
 SecurePass is: 
+
 •	A product in charge to handle secure access to every kind of private and protected environment;
+
 •	The way to protect your company or your house using a double key verification;
+
 •	A client-server, web based application.
 
 # SecurePass: How it works?
