@@ -19,8 +19,7 @@ Currently all these problems are not addressed by a unique, secure and integrate
 In our project as case of use, we have developed a system that allows employees to access their work environment. The other problems mentioned above are easily addressed by this technology and its system architecture.
 
 # What is SecurePass?
-
-The product developed during the course is called SecurePass. 
+ 
 SecurePass is: 
 
 •	A product in charge to handle secure access to every kind of private and protected environment;
